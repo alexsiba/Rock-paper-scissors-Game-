@@ -21,3 +21,16 @@ function randomValues() {
 }
 
 randomValues();
+
+console.log("Hello mama");
+
+function getComputerChoice() {
+  const r = Math.random();
+  if (r < 1 / 3) {
+    return "Paper";
+  } else if (r < 2 / 3) {
+    return "Rock";
+  } else {
+    return "Scissors";
+  }
+}
