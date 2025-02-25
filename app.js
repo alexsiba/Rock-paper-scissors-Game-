@@ -62,7 +62,7 @@ function getRoundResult(humanChoice, computerChoice) {
   }
 }
 
-// Play a 5-round game; each round summary now only shows the result and score.
+// Play a 5-round game
 function playGame() {
   humanScore = 0;
   computerScore = 0;
